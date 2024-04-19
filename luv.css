@@ -45,7 +45,9 @@
 
 :focus {
   --tape-filter: hue-rotate(-72deg);
-  outline: thick outset;
+  outline: 1rem dotted;
+  outline-offset: -1em;
+  outline-width: min(1rem, 1ch);
 }
 
 :any-link {
